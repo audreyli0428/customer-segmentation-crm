@@ -126,8 +126,9 @@ campaign planning, retention strategies, and risk management discussions.
 
 
 ---
-```
+
 ## Project Structure
+```
 
 ├── data/
 │ ├── raw/
