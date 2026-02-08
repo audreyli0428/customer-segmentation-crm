@@ -36,28 +36,6 @@ Each row represents a customer, summarized over a fixed observation period.
 The dataset is well-suited for behavioral segmentation but does not include
 a predefined target variable.
 
----
-
-## Project Structure
-├── data/
-│   ├── raw/
-│   │   └── CreditCard_STM.csv
-│   └── processed/
-│       └── creditcard_clean.csv
-│
-├── notebooks/
-│   ├── 01_data_cleaning.ipynb
-│   ├── 02_eda.ipynb
-│   ├── 03_segmentation.ipynb
-│   └── 04_crm_recommendation.ipynb
-│
-├── outputs/
-│   └── tables/
-│       ├── customer_with_clusters.csv
-│       └── customer_with_clusters_and_crm.csv
-│
-└── README.md
-
 
 ---
 
@@ -146,6 +124,30 @@ campaign planning, retention strategies, and risk management discussions.
 - An end-to-end analytical workflow can effectively bridge data analysis and
   real-world decision-making.
 
+
+---
+```
+## Project Structure
+
+├── data/
+│ ├── raw/
+│ │ └── CreditCard_STM.csv
+│ └── processed/
+│ └── creditcard_clean.csv
+│
+├── notebooks/
+│ ├── 01_data_cleaning.ipynb
+│ ├── 02_eda.ipynb
+│ ├── 03_segmentation.ipynb
+│ └── 04_crm_recommendation.ipynb
+│
+├── outputs/
+│ └── tables/
+│ ├── customer_with_clusters.csv
+│ └── customer_with_clusters_and_crm.csv
+│
+└── README.md
+```
 ---
 
 ## Deliverables
