@@ -1,0 +1,13 @@
+# Ignore raw and processed data
+data/
+
+# OS / system files
+desktop.ini
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
