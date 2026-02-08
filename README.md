@@ -26,15 +26,16 @@ This project addresses the following questions:
 ---
 
 ## Dataset
-The dataset contains aggregated credit card usage information at the customer level,
-including:
-- Spending and balance metrics
-- Purchase and cash advance behavior
-- Usage frequency and payment discipline indicators
 
-Each row represents a customer, summarized over a fixed observation period.
-The dataset is well-suited for behavioral segmentation but does not include
-a predefined target variable.
+The original dataset contains aggregated credit card usage information at the
+customer level, including spending behavior, usage frequency, and payment
+discipline indicators.
+
+> **Note:**  
+> The original dataset is not included in this repository for data governance
+> reasons. This project focuses on the analytical workflow, modeling decisions,
+> and business interpretation. All data preprocessing, feature engineering,
+> and modeling steps are fully documented in the notebooks.
 
 
 ---
@@ -129,13 +130,6 @@ campaign planning, retention strategies, and risk management discussions.
 
 ## Project Structure
 ```
-
-├── data/
-│ ├── raw/
-│ │ └── CreditCard_STM.csv
-│ └── processed/
-│ └── creditcard_clean.csv
-│
 ├── notebooks/
 │ ├── 01_data_cleaning.ipynb
 │ ├── 02_eda.ipynb
@@ -147,7 +141,11 @@ campaign planning, retention strategies, and risk management discussions.
 │ ├── customer_with_clusters.csv
 │ └── customer_with_clusters_and_crm.csv
 │
+├── requirements.txt
 └── README.md
+
+
+> *Note: The `data/` directory is intentionally excluded from this repository.*
 ```
 ---
 
